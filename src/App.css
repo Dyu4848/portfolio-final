@@ -78,7 +78,7 @@ font-family: "Raleway", sans-serif;
 justify-content: space-between;
 }
 
-a::before {
+a {
   text-decoration: none;
 }
 
@@ -91,7 +91,6 @@ a:visited {
 #portfolio {
   font-size: 180%;
   margin-right: 50px;
-  text-decoration: none;
 }
 
 #resume {
@@ -101,7 +100,7 @@ a:visited {
 
 #contact {
   font-size: 180%;
-  margin-right: 60px;
+  margin-right: 50px;
 }
 
 /* About */

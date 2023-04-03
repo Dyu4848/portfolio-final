@@ -47,7 +47,7 @@
 /* Body */
 body {
   background: rgb(32, 35, 48);
-  zoom: 70%;
+  zoom: 60%;
 }
 
 /* Navbar */
@@ -432,7 +432,7 @@ a:visited {
   }
 }
 
-@media screen and (max-width: 1500px) {
+/* @media screen and (max-width: 1500px) {
   #resume {
     float: left;
     margin-left: -2px;
@@ -447,7 +447,7 @@ a:visited {
     float: left;
     margin-left: 50px;
   }
-}
+} */
 
 /* Contact section */
 

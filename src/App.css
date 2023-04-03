@@ -250,12 +250,12 @@ a:visited {
   animation: fade-in 3s ease;
 }
 
-@media screen and (max-width: 1600px) {
+/* @media screen and (max-width: 1600px) {
   #certificate {
     margin-left: 10px;
     margin-top: 1000px;
   }
-}
+} */
 
 /* Portfolio */
 
@@ -501,8 +501,11 @@ a:visited {
   animation: change-bg 5s infinite;
 }
 
+/* I-Pad view */
 
-
-
-
-
+@media screen and (max-width: 844px) {
+      #certficiate {
+        position: absolute;
+        margin-top: 70%;
+      }
+    }

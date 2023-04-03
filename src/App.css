@@ -47,7 +47,7 @@
 /* Body */
 body {
   background: rgb(32, 35, 48);
-  zoom: 75%;
+  zoom: 70%;
 }
 
 /* Navbar */
@@ -134,11 +134,11 @@ a:visited {
   animation: slide-right 2s ease, fade-in ease 3s;
 }
 
-@media screen and (max-width: 1370px) {
+/* @media screen and (max-width: 1370px) {
   #intro {
     width: 60%
   }
-}
+} */
 
 #skills {
   margin-top: -200px;
@@ -500,11 +500,5 @@ a:visited {
   animation: change-bg 5s infinite;
 }
 
-/* I-Pad view */
 
-@media screen and (max-width: 844px) {
-      #certficiate {
-        position: absolute;
-        margin-top: 70%;
-      }
-    }
+
